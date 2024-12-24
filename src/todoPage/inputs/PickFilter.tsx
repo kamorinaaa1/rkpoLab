@@ -1,5 +1,5 @@
 import {Dispatch, FC, SetStateAction} from "react";
-import {FilterState} from "../App.tsx";
+import {FilterState} from "../../App.tsx";
 
 const PickFilter: FC<Props> = ({filter, setFilter}) => {
   const changeFilter = (filterNumber: number) => {
